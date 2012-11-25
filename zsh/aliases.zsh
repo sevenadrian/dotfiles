@@ -1,4 +1,9 @@
 # Aliases in this file are bash and zsh compatible
+# Adrian Added
+alias cdp='cd ~/Projects'
+alias td='todo.sh'
+alias tdl='todo.sh view project'
+alias tdv='vim /Users/adrian/Google\ Drive/todo.txt'
 
 # Don't change. The following determines where YADR is installed.
 yadr=$HOME/.yadr
