@@ -41,6 +41,7 @@ hi! link NERDTreeDir Identifier
 hi! VertSplit guifg=#003745 gui=bold
 hi! LineNR guifg=#004C60 gui=bold guibg=#002B36
 hi! link NonText VertSplit
+hi! NonText ctermfg=white
 hi! Normal guifg=#77A5B1
 hi! Constant guifg=#00BCE0
 hi! Comment guifg=#52737B
