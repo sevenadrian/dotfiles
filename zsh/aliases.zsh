@@ -126,10 +126,6 @@ alias ms='mongrel_rails start'
 alias tfdl='tail -f log/development.log'
 alias tftl='tail -f log/test.log'
 
-# Vim/ctags "mctags = make ctags", using the ruby specific version
-# to save some time
-alias mctags=~/.bin/run_tags.rb #'/opt/local/bin/ctags -Rf ./tags *'
-
 alias ka9='killall -9'
 alias k9='kill -9'
 
@@ -153,6 +149,11 @@ alias zc='zeus console'
 
 # Rspec
 alias rs='rspec spec'
+alias sr='spring rspec'
+alias srgm='spring rails g migration'
+alias srdm='spring rake db:migrate'
+alias srdt='spring rake db:migrate'
+alias srdmt='spring rake db:migrate db:test:prepare'
 
 # Sprintly - https://github.com/nextbigsoundinc/Sprintly-GitHub
 alias sp='sprintly'
