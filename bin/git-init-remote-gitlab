@@ -1,0 +1,9 @@
+#!/bin/sh
+
+repo=$1
+source ~/.gitlab
+token=$GITLAB_AUTH_TOKEN
+
+test -z $repo && echo "Repo name required." 1>&2 && exit 1
+
+curl -H "Content-Type:application/json" https://gitlab.com/api/v3/projects?private_token=$token -d "{ \"name\": \"$repo\", \"visibility_level\": 0 }"
